@@ -1,0 +1,25 @@
+# SolidWorks lock/temp files
+~$*
+# Print exports (keep a specific STL with the test report that used it, if needed)
+*.stl
+*.3mf
+# Ansys Workbench / Fluent / Discovery
+*_files/
+*.wbpj.lock
+*.cas.h5
+*.dat.h5
+*.cas
+*.dat
+*.msh
+*.msh.h5
+*.dsco
+*.scdocx
+*.trn
+# Slicer / OS / editors
+*.gcode
+*.bgcode
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
