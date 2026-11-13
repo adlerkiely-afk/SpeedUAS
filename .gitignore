@@ -23,3 +23,7 @@ Thumbs.db
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+# Private working files and third-party CAD (SOURCES.md is kept)
+private/
+cad/vendor/*
+!cad/vendor/SOURCES.md
