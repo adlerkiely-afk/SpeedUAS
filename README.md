@@ -61,6 +61,23 @@ Every number on this page is a calculation or a datasheet value unless it says "
 3. Finish the volume mesh, solve the bare airframe, and replace the estimated drag area with a
    computed one.
 
-Design notes, analysis scripts and test reports will be added to this repository as they are cleaned up.
+## Repository layout
+
+These folders are placeholders. They are empty until the work in them is finished and checked.
+
+| Folder | What will go here |
+|---|---|
+| `docs/` | Design log, architecture, bill of materials |
+| `cad/images/` | CAD renders and screenshots, labelled as renders |
+| `cad/reference/` | Reference assembly with vendor component models |
+| `cad/vendor/` | Sources and licenses for third-party models (the models themselves are not stored here) |
+| `analysis/` | Top-speed model, mass budget, bench-test analysis |
+| `cfd/` | Setup notes, mesh and solver records, results |
+| `test/procedures/` | Test procedures |
+| `test/reports/` | Test reports |
+| `test/data/` | Raw bench logs |
+| `firmware/` | Thrust stand logger |
+| `manufacturing/` | Print settings |
+| `media/` | Figures |
 
 More context: [adlerkiely-afk.github.io](https://adlerkiely-afk.github.io)
